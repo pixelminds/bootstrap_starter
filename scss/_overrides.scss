@@ -1,3 +1,32 @@
+// Custom variables
+$brand-primary:         #154780;
+$navbar-inverse-bg:     $brand-primary;
+
+$font-size-h1:            floor(($font-size-base * 1.8)) ; // ~36px
+$font-size-h2:            floor(($font-size-base * 1.8)) ; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.4)) ; // ~24px
+
+h1, h2, h3 {  
+  color: $brand-primary;
+}
+
+h1, .h1 {
+  font-size: $font-size-h1;
+}
+
+h2, .h2 {
+  font-size: $font-size-h2;
+}
+
+h3, .h3 {
+  font-size: $font-size-h3;
+}
+
+img.img-responsive {
+  margin: 5px 15px;
+  float: right;
+}
+
 // Media query variables.
 $tablet:              "screen and (min-width: #{$screen-sm-min})";
 $normal:              "screen and (min-width: #{$screen-md-min})";
